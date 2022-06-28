@@ -1,0 +1,27 @@
+body{
+    color: white;
+    background: rgb(131, 130, 130);
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.painel {
+    width: auto;
+    height: auto;
+    max-width: 725px;
+    max-height: 300px;
+
+}
+
+.fieldset_principal {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
