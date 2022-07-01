@@ -1,4 +1,4 @@
-body{
+body {
     color: white;
     background: rgb(131, 130, 130);
 }
@@ -15,7 +15,6 @@ h2 {
     height: auto;
     max-width: 725px;
     max-height: 300px;
-
 }
 
 .fieldset_principal {
@@ -24,4 +23,27 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        position: static;
+    }
+
+    .painel {
+        width: auto;
+        height: auto;
+        max-width: 450px;
+        max-height: 300px;
+    }
+
+    .fieldset_principal {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        position: static;
+    }
 }
