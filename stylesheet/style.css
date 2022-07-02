@@ -26,14 +26,23 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    h2 {
-        position: static;
+    body {
+        margin: 0px;
+        text-align: left;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    h2 p {
+        margin-left: 10px;
     }
 
     .painel {
         width: auto;
         height: auto;
-        max-width: 450px;
+        max-width: 480px;
         max-height: 300px;
     }
 
