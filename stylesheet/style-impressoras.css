@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background: rgb(131, 130, 130);
+}
+
+main {
+    margin: 0 auto;
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.painel {
+    width: auto;
+    height: auto;
+    max-width: 725px;
+    max-height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+        text-align: left;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    h2 p {
+        margin-left: 10px;
+    }
+
+    .painel {
+        width: auto;
+        height: auto;
+        max-width: 480px;
+        max-height: 300px;
+    }
+
+    .fieldset_principal {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        position: static;
+    }
+}
